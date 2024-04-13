@@ -42,7 +42,6 @@
 			],
 			"silverblue": [
 				"gnome-shell-extension-appindicator",
-				"gnome-shell-extension-blur-my-shell",
 				"gnome-shell-extension-caffeine",
 				"gnome-shell-extension-dash-to-dock",
 				"gnome-shell-extension-gsconnect",
@@ -71,7 +70,6 @@
 				"code",
 				"containerd.io",
 				"dbus-x11",
-				"devpod",
 				"docker-ce",
 				"docker-ce-cli",
 				"docker-buildx-plugin",
@@ -135,10 +133,12 @@
 	"38": {
 		"include": {
 			"silverblue": [
+				"gnome-shell-extension-blur-my-shell",
 				"gnome-shell-extension-tailscale-status"
 			],
 			"dx": [
 				"distrobuilder",
+				"devpod",
 				"podman-plugins"
 			]
 		},
@@ -159,11 +159,13 @@
 				"tuned-profiles-atomic"
 			],
 			"silverblue": [
+				"gnome-shell-extension-blur-my-shell",
 				"gnome-shell-extension-tailscale-gnome-qs",
 				"nautilus-open-any-terminal"
 			],
 			"dx": [
 				"distrobuilder",
+				"devpod",
 				"podman-plugins"
 			]
 		},
